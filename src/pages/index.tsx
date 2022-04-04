@@ -1,11 +1,5 @@
 import { NextPage } from 'next';
+import LandingPage from './LandingPage';
 
-const HomePage: NextPage = () => {
-  return (
-    <div>
-      <h1>{'title'}</h1>
-      <p>{'description'}</p>
-    </div>
-  );
-};
+const HomePage: NextPage = () => <LandingPage />;
 export default HomePage;
