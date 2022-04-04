@@ -1,10 +1,7 @@
 import { NextPage } from 'next';
+import { LandingPageView } from 'features/landing-page';
 
 const LandingPage: NextPage = () => {
-  return (
-    <div>
-      <h1>{'landing page'}</h1>
-    </div>
-  );
+  return <LandingPageView />;
 };
 export default LandingPage;
