@@ -7,8 +7,8 @@ export const palette: ThemeOptions = {
       white: '#fff'
     },
     background: {
-      paper: '#FAFAFA',
-      default: '#000000'
+      paper: '#000000',
+      default: '#FAFAFA'
     },
     primary: {
       light: '#ffffff',
