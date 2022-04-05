@@ -1,6 +1,6 @@
 export const tags = {
   name: 'UXVolution',
-  description: 'Vamos em busca do hit!',
+  description: '',
   canonical: 'https://uxv.co/',
   locale: 'pt-br',
   type: 'website',
