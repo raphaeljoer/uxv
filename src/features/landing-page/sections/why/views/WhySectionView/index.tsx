@@ -3,7 +3,7 @@ import HealthAndSafetyOutlinedIcon from '@mui/icons-material/HealthAndSafetyOutl
 import ConnectWithoutContactOutlinedIcon from '@mui/icons-material/ConnectWithoutContactOutlined';
 import * as styles from './styles';
 
-export const WhySection = () => {
+export const WhySectionView = () => {
   return (
     <Box sx={styles.container}>
       <Box sx={styles.section}>

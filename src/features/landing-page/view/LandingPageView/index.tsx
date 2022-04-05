@@ -1,13 +1,13 @@
 import { Box } from '@mui/material';
-import { Team } from 'features/landing-page/components/Team';
-import { WhySection } from 'features/landing-page/components/WhySection';
+import { TeamSectionView } from 'features/landing-page/sections/team';
+import { WhySectionView } from 'features/landing-page/sections/why';
 import * as styles from './styles';
 
 export const LandingPageView = () => {
   return (
     <Box sx={styles.container}>
-      <WhySection />
-      <Team />
+      <WhySectionView />
+      <TeamSectionView />
     </Box>
   );
 };

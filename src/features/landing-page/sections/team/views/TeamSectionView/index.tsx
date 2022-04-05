@@ -1,7 +1,7 @@
 import { Box, Typography } from '@mui/material';
 import * as styles from './styles';
 
-export const Team = () => {
+export const TeamSectionView = () => {
   return (
     <Box sx={styles.container}>
       <Box sx={styles.section}>
