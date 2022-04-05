@@ -6,24 +6,26 @@ export const container: StyleProps = {
   bgcolor: 'background.paper',
   justifyContent: 'center'
 };
-
 export const section: StyleProps = {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
   maxWidth: 1440,
-  my: 8
+  width: '100%',
+  my: 8,
+  rowGap: 8
 };
-export const title: StyleProps = {
-  fontSize: 40,
-  fontWeight: 700,
-  color: 'white',
-  textAlign: 'center',
-  mb: 3
-};
-export const description: StyleProps = {
-  textAlign: 'center',
-  color: 'white',
-  maxWidth: 480
+export const members: StyleProps = {
+  display: 'grid',
+  width: '100%',
+  gridTemplateColumns: {
+    xs: '1fr',
+    md: '1fr 1fr',
+    lg: '1fr 1fr 1fr 1fr'
+  },
+  gridAutoColumns: 'auto',
+  justifyItems: 'center',
+  gap: 6,
+  px: 3
 };

@@ -1,17 +1,35 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Grid } from '@mui/material';
+import { Header } from '../../components/Header';
+import { Member } from '../../components/Member';
 import * as styles from './styles';
 
 export const TeamSectionView = () => {
   return (
     <Box sx={styles.container}>
       <Box sx={styles.section}>
-        <Typography variant="h2" sx={styles.title}>
-          A team of exceptional people
-        </Typography>
-        <Typography sx={styles.description}>
-          To build complete solutions a team of dedicated and diverse people is
-          needed, believing in the same purpose
-        </Typography>
+        <Header />
+        <Grid sx={styles.members}>
+          <Member
+            name="Claudia Pernencar"
+            position="Co-Founder, UX/UI Consultant & Researcher"
+            image="/features/landing-page/team/claudia.jpg"
+          />
+          <Member
+            name="Inga Saboia"
+            position="Co-Founder, UX/UI Consultant & Research"
+            image="/features/landing-page/team/inga.jpg"
+          />
+          <Member
+            name="Deivith Oliveira"
+            position="Co-Founder & Digital Product Manager"
+            image="/features/landing-page/team/deivith.jpg"
+          />
+          <Member
+            name="Rafaelly Freitas"
+            position="Product Designer & System Analyst"
+            image="/features/landing-page/team/rafa.jpg"
+          />
+        </Grid>
       </Box>
     </Box>
   );

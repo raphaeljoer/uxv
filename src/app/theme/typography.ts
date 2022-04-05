@@ -1,39 +1,38 @@
 import { ThemeOptions } from '@mui/material';
 
-export const Montserrat = 'Montserrat, sans-serif';
-export const Rubik = 'Rubik, sans-serif';
+export const Barlow = 'Barlow';
 
 export const typography: ThemeOptions = {
   typography: {
     h1: {
-      fontFamily: Montserrat
+      fontFamily: Barlow
     },
     h2: {
-      fontFamily: Montserrat
+      fontFamily: Barlow
     },
     h3: {
-      fontFamily: Montserrat
+      fontFamily: Barlow
     },
     h4: {
-      fontFamily: Montserrat
+      fontFamily: Barlow
     },
     h5: {
-      fontFamily: Rubik
+      fontFamily: Barlow
     },
     h6: {
-      fontFamily: Rubik
+      fontFamily: Barlow
     },
     body1: {
-      fontFamily: Rubik
+      fontFamily: Barlow
     },
     body2: {
-      fontFamily: Rubik
+      fontFamily: Barlow
     },
     caption: {
-      fontFamily: Rubik
+      fontFamily: Barlow
     },
     button: {
-      fontFamily: Montserrat,
+      fontFamily: Barlow,
       textTransform: 'unset'
     }
   }
