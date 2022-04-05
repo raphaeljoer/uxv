@@ -23,7 +23,7 @@ export const Member = ({ name, position, image }: Props) => {
       <Box sx={styles.socials}>
         <IconButton
           aria-label="linkedin"
-          color="secondary"
+          color="primary"
           size="medium"
           sx={styles.button}
         >
@@ -31,7 +31,7 @@ export const Member = ({ name, position, image }: Props) => {
         </IconButton>
         <IconButton
           aria-label="linkedin"
-          color="secondary"
+          color="primary"
           size="medium"
           sx={styles.button}
         >
