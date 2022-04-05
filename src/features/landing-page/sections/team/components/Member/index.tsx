@@ -1,16 +1,11 @@
-import { Box, IconButton, Typography } from '@mui/material';
+import { Box, IconButton, Link, Typography } from '@mui/material';
 import Image from 'next/image';
+import { Member as MemberProps } from '../../types/member';
 import * as styles from './styles';
-import { RiLinkedinFill } from 'react-icons/ri';
-import { FaOrcid } from 'react-icons/fa';
 
-type Props = {
-  name: string;
-  position: string;
-  image: string;
-};
+type Props = MemberProps;
 
-export const Member = ({ name, position, image }: Props) => {
+export const Member = ({ name, position, image, socials }: Props) => {
   return (
     <Box sx={styles.container}>
       <Box sx={styles.image}>
@@ -21,22 +16,18 @@ export const Member = ({ name, position, image }: Props) => {
       </Typography>
       <Typography sx={styles.position}>{position}</Typography>
       <Box sx={styles.socials}>
-        <IconButton
-          aria-label="linkedin"
-          color="primary"
-          size="medium"
-          sx={styles.button}
-        >
-          <RiLinkedinFill />
-        </IconButton>
-        <IconButton
-          aria-label="linkedin"
-          color="primary"
-          size="medium"
-          sx={styles.button}
-        >
-          <FaOrcid />
-        </IconButton>
+        {socials.map(({ name, url, icon }) => (
+          <Link href={url} key={name} target="_blank">
+            <IconButton
+              aria-label={name}
+              color="primary"
+              size="medium"
+              sx={styles.button}
+            >
+              {icon}
+            </IconButton>
+          </Link>
+        ))}
       </Box>
     </Box>
   );
