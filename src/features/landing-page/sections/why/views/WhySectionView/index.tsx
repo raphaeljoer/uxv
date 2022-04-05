@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 import HealthAndSafetyOutlinedIcon from '@mui/icons-material/HealthAndSafetyOutlined';
 import ConnectWithoutContactOutlinedIcon from '@mui/icons-material/ConnectWithoutContactOutlined';
 import * as styles from './styles';
@@ -6,9 +6,9 @@ import * as styles from './styles';
 export const WhySectionView = () => {
   return (
     <Box sx={styles.container}>
-      <Box sx={styles.section}>
+      <Grid sx={styles.section}>
         <Box sx={styles.article}>
-          <Typography variant="h2" sx={styles.why}>
+          <Typography variant="h2" sx={styles.why} maxWidth={288}>
             Why do we focus on the health area?
           </Typography>
         </Box>
@@ -36,7 +36,7 @@ export const WhySectionView = () => {
             foundation to propose technology in health.
           </Typography>
         </Box>
-      </Box>
+      </Grid>
     </Box>
   );
 };
