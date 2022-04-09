@@ -1,4 +1,5 @@
 import { Box } from '@mui/material';
+import { FooterView } from 'features/landing-page/sections/footer';
 import { PartnersView } from 'features/landing-page/sections/partners';
 import { PhotosView } from 'features/landing-page/sections/photos';
 import { ProjectsView } from 'features/landing-page/sections/projects';
@@ -16,6 +17,7 @@ export const LandingPageView = () => {
       <ProjectsView />
       <PhotosView />
       <PartnersView />
+      <FooterView />
     </Box>
   );
 };
