@@ -5,14 +5,20 @@ export const container: StyleProps = {
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  maxWidth: 288,
-  height: 456
+  width: '100%',
+  px: 2,
+  pt: 2,
+  pb: 4,
+  minHeight: 456,
+  borderRadius: 4,
+  border: '1px dashed',
+  borderColor: 'grey.900'
 };
 export const image: StyleProps = {
   position: 'relative',
   width: '100%',
   minWidth: 248,
-  minHeight: 288,
+  minHeight: { xs: 460, md: 460, lg: 320 },
   borderRadius: 2,
   overflow: 'hidden',
   mb: 2,

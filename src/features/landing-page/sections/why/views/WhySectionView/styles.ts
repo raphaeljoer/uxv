@@ -15,7 +15,7 @@ export const section: StyleProps = {
   m: { xs: 2, md: 0 },
   maxWidth: 1440,
   width: '100%',
-  px: 3
+  px: 2
 };
 export const article: StyleProps = {
   display: 'flex',

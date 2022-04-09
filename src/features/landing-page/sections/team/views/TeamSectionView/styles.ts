@@ -14,8 +14,10 @@ export const section: StyleProps = {
   maxWidth: 1440,
   width: '100%',
   my: 8,
+  px: 2,
   rowGap: 8
 };
+
 export const members: StyleProps = {
   display: 'grid',
   width: '100%',
@@ -26,6 +28,5 @@ export const members: StyleProps = {
   },
   gridAutoColumns: 'auto',
   justifyItems: 'center',
-  gap: 6,
-  px: 3
+  gap: 2
 };
