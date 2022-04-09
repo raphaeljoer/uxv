@@ -14,17 +14,18 @@ export const section: StyleProps = {
   justifyContent: 'space-between',
   m: { xs: 2, md: 0 },
   maxWidth: 1440,
-  width: '100%',
-  px: 2
+  width: '100%'
 };
 export const article: StyleProps = {
   display: 'flex',
   flexDirection: 'column',
+  alignItems: { xs: 'center', md: 'flex-start' },
   width: '100%'
 };
 export const why: StyleProps = {
   fontSize: 40,
-  fontWeight: 700
+  fontWeight: 700,
+  textAlign: { xs: 'center', md: 'left' }
 };
 
 export const title: StyleProps = {

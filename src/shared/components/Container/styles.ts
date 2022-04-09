@@ -17,5 +17,5 @@ export const content: StyleProps = {
   width: '100%',
   maxWidth: 1440,
   px: 2,
-  py: 8
+  py: 16
 };

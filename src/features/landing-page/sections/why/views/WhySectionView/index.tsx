@@ -2,10 +2,11 @@ import { Box, Grid, Typography } from '@mui/material';
 import HealthAndSafetyOutlinedIcon from '@mui/icons-material/HealthAndSafetyOutlined';
 import ConnectWithoutContactOutlinedIcon from '@mui/icons-material/ConnectWithoutContactOutlined';
 import * as styles from './styles';
+import { Container } from 'shared/components/Container';
 
 export const WhySectionView = () => {
   return (
-    <Box sx={styles.container}>
+    <Container>
       <Grid sx={styles.section}>
         <Box sx={styles.article}>
           <Typography variant="h2" sx={styles.why} maxWidth={288}>
@@ -37,6 +38,6 @@ export const WhySectionView = () => {
           </Typography>
         </Box>
       </Grid>
-    </Box>
+    </Container>
   );
 };
