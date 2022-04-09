@@ -5,13 +5,15 @@ import * as styles from './styles';
 type Props = {
   children: React.ReactNode;
   sx?: StyleProps;
+  sxContent?: StyleProps;
 };
 
-export const Container = ({ children, sx }: Props) => {
+export const Container = ({ children, sx, sxContent }: Props) => {
   const containerStyles = { ...styles.container, ...sx };
+  const contentStyles = { ...styles.content, ...sxContent };
   return (
     <Box sx={containerStyles}>
-      <Box sx={styles.content}>{children}</Box>
+      <Box sx={contentStyles}>{children}</Box>
     </Box>
   );
 };

@@ -1,4 +1,5 @@
 import { Box, Grid } from '@mui/material';
+import { Container } from 'shared/components/Container';
 import { Header } from '../../components/Header';
 import { Member } from '../../components/Member';
 import { members } from '../../data/members';
@@ -6,7 +7,7 @@ import * as styles from './styles';
 
 export const TeamSectionView = () => {
   return (
-    <Box sx={styles.container}>
+    <Container sx={styles.container} sxContent={{ pt: 8, pb: 2 }}>
       <Box sx={styles.section}>
         <Header />
         <Grid sx={styles.members}>
@@ -21,6 +22,6 @@ export const TeamSectionView = () => {
           ))}
         </Grid>
       </Box>
-    </Box>
+    </Container>
   );
 };

@@ -1,10 +1,7 @@
 import { StyleProps } from 'shared/types/style-props';
 
 export const container: StyleProps = {
-  display: 'flex',
-  width: '100%',
-  bgcolor: 'background.paper',
-  justifyContent: 'center'
+  bgcolor: 'background.paper'
 };
 export const section: StyleProps = {
   display: 'flex',
