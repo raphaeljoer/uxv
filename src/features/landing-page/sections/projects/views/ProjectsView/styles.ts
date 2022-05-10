@@ -1,6 +1,6 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const header: StyleProps = {
+export const header: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'flex-start',
@@ -8,19 +8,19 @@ export const header: StyleProps = {
   width: '100%'
 };
 
-export const upTitle: StyleProps = {
+export const upTitle: StylesProps = {
   color: 'secondary.main',
   mb: 1,
   width: '100%',
   textAlign: { xs: 'center', md: 'left' }
 };
 
-export const title: StyleProps = {
+export const title: StylesProps = {
   color: 'black',
   textAlign: { xs: 'center', md: 'left' }
 };
 
-export const grid: StyleProps = {
+export const grid: StylesProps = {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, minmax(288px, 1fr))',
   width: '100%',
@@ -28,25 +28,25 @@ export const grid: StyleProps = {
   gridGap: { xs: 56, md: 32 }
 };
 
-export const project: StyleProps = {
+export const project: StylesProps = {
   display: 'flex',
   flexDirection: 'column'
 };
 
-export const projectImage: StyleProps = {
+export const projectImage: StylesProps = {
   position: 'relative',
   display: 'flex',
   justifyContent: { xs: 'center', md: 'flex-start' },
   alignItems: { xs: 'center', md: 'flex-start' }
 };
 
-export const projectTitle: StyleProps = {
+export const projectTitle: StylesProps = {
   mt: 3,
   mb: 2,
   textAlign: { xs: 'center', md: 'left' }
 };
 
-export const projectDescription: StyleProps = {
+export const projectDescription: StylesProps = {
   maxWidth: 560,
   textAlign: { xs: 'center', md: 'left' }
 };

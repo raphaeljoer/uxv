@@ -1,5 +1,6 @@
 import { Box } from '@mui/material';
 import { FooterView } from 'features/landing-page/sections/footer';
+import { HeroView } from 'features/landing-page/sections/hero';
 import { PartnersView } from 'features/landing-page/sections/partners';
 import { PhotosView } from 'features/landing-page/sections/photos';
 import { ProjectsView } from 'features/landing-page/sections/projects';
@@ -11,6 +12,7 @@ import * as styles from './styles';
 export const LandingPageView = () => {
   return (
     <Box sx={styles.container}>
+      <HeroView />
       <WhySectionView />
       <TeamSectionView />
       <WhatWeBelieveView />

@@ -1,6 +1,6 @@
-import { StyleProps } from './../../../../../../shared/types/style-props';
+import { StylesProps } from '../../../../../../shared/types/styles-props';
 
-export const container: StyleProps = {
+export const container: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -11,7 +11,7 @@ export const container: StyleProps = {
   py: 8
 };
 
-export const header: StyleProps = {
+export const header: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: { xs: 'center', md: 'flex-start' },
@@ -20,7 +20,7 @@ export const header: StyleProps = {
   color: 'white'
 };
 
-export const content: StyleProps = {
+export const content: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -30,7 +30,7 @@ export const content: StyleProps = {
   px: 2
 };
 
-export const grid: StyleProps = {
+export const grid: StylesProps = {
   display: 'grid',
   gridTemplateColumns: {
     xs: '1fr',

@@ -1,9 +1,9 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const container: StyleProps = {
+export const container: StylesProps = {
   bgcolor: 'background.paper'
 };
-export const section: StyleProps = {
+export const section: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
@@ -15,7 +15,7 @@ export const section: StyleProps = {
   rowGap: 8
 };
 
-export const members: StyleProps = {
+export const members: StylesProps = {
   display: 'grid',
   width: '100%',
   gridTemplateColumns: {

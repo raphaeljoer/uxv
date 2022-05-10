@@ -1,6 +1,6 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const container: StyleProps = {
+export const container: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -9,7 +9,7 @@ export const container: StyleProps = {
   bgcolor: 'background.default'
 };
 
-export const content: StyleProps = {
+export const content: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',

@@ -1,11 +1,11 @@
 import { Box } from '@mui/material';
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 import * as styles from './styles';
 
 type Props = {
   children: React.ReactNode;
-  sx?: StyleProps;
-  sxContent?: StyleProps;
+  sx?: StylesProps;
+  sxContent?: StylesProps;
 };
 
 export const Container = ({ children, sx, sxContent }: Props) => {

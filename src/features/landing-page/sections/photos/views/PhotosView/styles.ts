@@ -1,8 +1,8 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const container: StyleProps = {};
+export const container: StylesProps = {};
 
-export const grid: StyleProps = {
+export const grid: StylesProps = {
   position: 'relative',
   display: 'grid',
   width: '100%',
@@ -12,7 +12,7 @@ export const grid: StyleProps = {
   }
 };
 
-export const image: StyleProps = {
+export const image: StylesProps = {
   display: 'flex',
   position: 'relative',
   minWidth: 120,

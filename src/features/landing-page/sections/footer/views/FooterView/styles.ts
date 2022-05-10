@@ -1,24 +1,25 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const container: StyleProps = {
+export const container: StylesProps = {
   bgcolor: 'background.paper'
 };
 
-export const grid: StyleProps = {
+export const grid: StylesProps = {
   color: 'white',
   width: '100%',
   display: 'grid',
-  gridTemplateColumns: 'repeat(3, 1fr)',
+  gridTemplateColumns: 'repeat(3, minmax(300px 1fr))',
+  rowGap: 3,
   alignItems: 'center',
   pb: 8,
   borderBottom: '1px solid rgba(255, 255, 255, 0.1)'
 };
 
-export const button: StyleProps = {
+export const button: StylesProps = {
   border: '1px solid'
 };
 
-export const info: StyleProps = {
+export const info: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'flex-start',
@@ -27,7 +28,7 @@ export const info: StyleProps = {
   gap: 2
 };
 
-export const copyright: StyleProps = {
+export const copyright: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',

@@ -1,6 +1,6 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const container: StyleProps = {
+export const container: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   width: '100%'

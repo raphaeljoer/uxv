@@ -10,7 +10,7 @@ export default class Document extends NextDocument {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,500&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Cedarville+Cursive&display=swap"
             rel="stylesheet"
           />
         </Head>

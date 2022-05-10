@@ -1,16 +1,16 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const container: StyleProps = {};
+export const container: StylesProps = {};
 
-export const accordion: StyleProps = {
+export const accordion: StylesProps = {
   maxWidth: '100%'
 };
 
-export const summary: StyleProps = {
+export const summary: StylesProps = {
   display: 'flex',
   gap: 2
 };
 
-export const details: StyleProps = {
+export const details: StylesProps = {
   color: 'white'
 };

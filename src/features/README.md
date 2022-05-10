@@ -1,7 +1,7 @@
 ## Features Description
 
 Each application functionality will be contained in its own folder
-(example: `/features/bills` or `/features/vendors`) and will expose its
+(example: `/features/landing-page` or `/features/auth`) and will expose its
 public API in its `index.ts` (i.e. any piece of code that can be publicly
 consumed by other features or pages) must necessarily be exposed in
 the `index.ts` file.

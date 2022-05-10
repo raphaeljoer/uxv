@@ -1,12 +1,12 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const container: StyleProps = {
+export const container: StylesProps = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
   minHeight: 432
 };
-export const section: StyleProps = {
+export const section: StylesProps = {
   display: 'grid',
   gridTemplateColumns: { md: '1fr 1fr 1fr', xs: '1fr' },
   gridTemplateRows: { xs: '200px 1fr 1fr', md: '1fr' },
@@ -16,29 +16,29 @@ export const section: StyleProps = {
   maxWidth: 1440,
   width: '100%'
 };
-export const article: StyleProps = {
+export const article: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: { xs: 'center', md: 'flex-start' },
   width: '100%'
 };
-export const why: StyleProps = {
+export const why: StylesProps = {
   fontSize: 40,
   fontWeight: 700,
   textAlign: { xs: 'center', md: 'left' }
 };
 
-export const title: StyleProps = {
+export const title: StylesProps = {
   maxWidth: 288,
   fontWeight: 700,
   marginBottom: 1
 };
 
-export const description: StyleProps = {
+export const description: StylesProps = {
   maxWidth: 360
 };
 
-export const icon: StyleProps = {
+export const icon: StylesProps = {
   fontSize: 56,
   color: 'secondary.main',
   mb: 2

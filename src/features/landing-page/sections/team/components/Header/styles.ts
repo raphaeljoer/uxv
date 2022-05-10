@@ -1,19 +1,19 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const container: StyleProps = {
+export const container: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center'
 };
-export const title: StyleProps = {
+export const title: StylesProps = {
   fontSize: 40,
   fontWeight: 700,
   color: 'white',
   textAlign: 'center',
   mb: 2
 };
-export const description: StyleProps = {
+export const description: StylesProps = {
   textAlign: 'center',
   color: 'white',
   maxWidth: 396

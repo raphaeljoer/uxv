@@ -1,13 +1,13 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const grid: StyleProps = {
+export const grid: StylesProps = {
   display: 'grid',
   gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' },
   width: '100%',
   gap: 4
 };
 
-export const header: StyleProps = {
+export const header: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: { xs: 'center', md: 'flex-start' },
@@ -15,17 +15,17 @@ export const header: StyleProps = {
   gap: 2
 };
 
-export const title: StyleProps = {
+export const title: StylesProps = {
   maxWidth: 340,
   textAlign: { xs: 'center', md: 'left' }
 };
 
-export const description: StyleProps = {
+export const description: StylesProps = {
   maxWidth: 320,
   textAlign: { xs: 'center', md: 'left' }
 };
 
-export const brands: StyleProps = {
+export const brands: StylesProps = {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
   alignContent: 'center',

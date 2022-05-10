@@ -1,6 +1,6 @@
-import { StyleProps } from 'shared/types/style-props';
+import { StylesProps } from 'shared/types/styles-props';
 
-export const container: StyleProps = {
+export const container: StylesProps = {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
@@ -14,7 +14,7 @@ export const container: StyleProps = {
   border: '1px dashed',
   borderColor: 'grey.900'
 };
-export const image: StyleProps = {
+export const image: StylesProps = {
   position: 'relative',
   width: '100%',
   minWidth: 248,
@@ -24,25 +24,25 @@ export const image: StyleProps = {
   mb: 2,
   filter: 'grayscale(100%)'
 };
-export const name: StyleProps = {
+export const name: StylesProps = {
   fontSize: 24,
   fontWeight: 'bold',
   textAlign: 'center',
   color: 'white',
   mb: 1
 };
-export const position: StyleProps = {
+export const position: StylesProps = {
   textAlign: 'center',
   color: 'grey.500',
   maxWidth: 180,
   height: '100%',
   mb: 2
 };
-export const socials: StyleProps = {
+export const socials: StylesProps = {
   display: 'flex',
   justifyContent: 'center',
   gap: 2
 };
-export const button: StyleProps = {
+export const button: StylesProps = {
   border: '1px solid'
 };
