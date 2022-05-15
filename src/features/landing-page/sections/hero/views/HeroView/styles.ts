@@ -1,6 +1,7 @@
 import { StylesProps } from 'shared/types/styles-props';
 
 export const container: StylesProps = {
+  mt: 8,
   color: 'black'
 };
 
