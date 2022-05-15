@@ -15,7 +15,7 @@ export const content: StylesProps = {
   alignItems: 'center',
   justifyContent: 'center',
   width: '100%',
-  maxWidth: 1440,
+  maxWidth: { sm: 1200, xl: 1440 },
   px: 2,
   py: 12
 };
