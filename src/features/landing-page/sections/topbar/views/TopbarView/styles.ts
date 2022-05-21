@@ -4,8 +4,7 @@ export const superContainer: StylesProps = {
   position: 'fixed',
   top: 0,
   zIndex: 'appBar',
-  bgcolor: 'rgb(255, 255, 255, 0.4)',
-  backdropFilter: 'blur(10px)'
+  bgcolor: 'background.default'
 };
 
 export const superContent: StylesProps = {
