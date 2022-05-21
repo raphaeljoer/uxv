@@ -1,20 +1,20 @@
 import { StylesProps } from 'shared/types/styles-props';
 
 export const container: StylesProps = {
-  mt: 8,
+  mt: 10,
   color: 'black'
 };
 
 export const img: StylesProps = {
   position: 'relative',
-  minHeight: { sm: 540, md: 768 }
+  minHeight: { sm: 360, md: 480 }
 };
 
 export const title: StylesProps = {
   position: 'absolute',
   top: '50%',
   left: '50%',
-  transform: { sm: 'translate(-50%, -100%)', lg: 'translate(-104%, -100%)' },
+  transform: { sm: 'translate(-50%, -100%)', lg: 'translate(-120%, -100%)' },
   textAlign: { sm: 'center', lg: 'left' },
   fontSize: { sm: 40, md: 64 },
   maxWidth: { sm: 320, md: 480 },
@@ -26,7 +26,7 @@ export const subTitle: StylesProps = {
   position: 'absolute',
   top: '50%',
   left: '50%',
-  transform: { sm: 'translate(-50%, 0%)', lg: 'translate(-56%, -88%)' },
+  transform: { sm: 'translate(-50%, 0%)', lg: 'translate(-78%, -88%)' },
   textAlign: { sm: 'center', lg: 'left' },
   fontSize: { sm: 32, md: 48 },
   maxWidth: 560,
@@ -36,12 +36,12 @@ export const subTitle: StylesProps = {
 
 export const title2: StylesProps = {
   position: 'absolute',
-  top: '50%',
+  top: 0,
   left: '50%',
   transform: {
-    sm: 'translate(-50%, -25%)',
-    md: 'translate(-50%, 120%)',
-    xl: 'translate(-50%, 320%)'
+    sm: 'translate(-50%, 10%)',
+    md: 'translate(-50%, 25%)',
+    xl: 'translate(-50%, 25%)'
   },
   textAlign: { sm: 'center', lg: 'left' },
   fontSize: { sm: 40, md: 64 },
@@ -52,12 +52,12 @@ export const title2: StylesProps = {
 
 export const subTitle2: StylesProps = {
   position: 'absolute',
-  top: '50%',
+  top: 0,
   left: '50%',
   transform: {
-    sm: 'translate(-50%, 80%)',
-    md: 'translate(-50%, 240%)',
-    xl: 'translate(-50%, 420%)'
+    sm: 'translate(-50%, 100%)',
+    md: 'translate(-50%, 120%)',
+    xl: 'translate(-50%, 120%)'
   },
   textAlign: { sm: 'center', lg: 'left' },
   fontSize: { sm: 32, md: 48 },

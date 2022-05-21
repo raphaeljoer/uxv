@@ -39,7 +39,11 @@ export const HeroView = () => {
               </Box>
             </Box>
             <Box component="li" className="glide__slide">
-              <Box sx={styles.img}>
+              <Box
+                sx={Object.assign(styles.img, {
+                  minHeight: { sm: 360, md: 480, lg: 560, xl: 600 }
+                })}
+              >
                 <Typography variant="h1" sx={styles.title2}>
                   User research
                 </Typography>
@@ -49,22 +53,6 @@ export const HeroView = () => {
                 <Image
                   priority
                   src="/features/landing-page/hero/b2-vector.svg"
-                  alt="b1"
-                  layout="fill"
-                  objectFit="contain"
-                  objectPosition="center 72px"
-                />
-              </Box>
-            </Box>
-            <Box component="li" className="glide__slide">
-              <Box sx={styles.img}>
-                <Typography variant="h1" sx={styles.title}>
-                  Current Solution diagnosis
-                </Typography>
-                <Typography sx={styles.subTitle}>for Digital Health</Typography>
-                <Image
-                  priority
-                  src="/features/landing-page/hero/b1-vector.svg"
                   alt="b1"
                   layout="fill"
                   objectFit="contain"
