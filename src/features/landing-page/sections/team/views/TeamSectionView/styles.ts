@@ -21,7 +21,7 @@ export const members: StylesProps = {
   gridTemplateColumns: {
     xs: '1fr',
     md: '1fr 1fr',
-    lg: '1fr 1fr 1fr 1fr'
+    lg: '1fr 1fr 1fr'
   },
   gridAutoColumns: 'auto',
   justifyItems: 'center',

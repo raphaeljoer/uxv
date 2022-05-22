@@ -53,22 +53,5 @@ export const members: Member[] = [
         icon: <FaOrcid />
       }
     ]
-  },
-  {
-    name: 'Rafaelly Freitas',
-    position: 'Product Designer & System Analyst',
-    image: '/features/landing-page/team/rafa.jpg',
-    socials: [
-      {
-        name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/rafaelly-freitas/',
-        icon: <RiLinkedinFill />
-      },
-      {
-        name: 'Orcid',
-        url: 'https://orcid.org/0000-0003-0790-2739',
-        icon: <FaOrcid />
-      }
-    ]
   }
 ];
