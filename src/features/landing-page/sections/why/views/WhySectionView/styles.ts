@@ -8,13 +8,14 @@ export const container: StylesProps = {
 };
 export const section: StylesProps = {
   display: 'grid',
-  gridTemplateColumns: { md: '1fr 1fr 1fr', xs: '1fr' },
+  gridTemplateColumns: { md: '1fr 1fr 1fr 1fr', xs: '1fr' },
   gridTemplateRows: { xs: '200px 1fr 1fr', md: '1fr' },
   alignContent: 'space-between',
   justifyContent: 'space-between',
   m: { xs: 2, md: 0 },
   maxWidth: 1440,
-  width: '100%'
+  width: '100%',
+  gap: 2
 };
 export const article: StylesProps = {
   display: 'flex',

@@ -5,6 +5,7 @@ import { PartnersView } from 'features/landing-page/sections/partners';
 import { PhotosView } from 'features/landing-page/sections/photos';
 import { ProjectsView } from 'features/landing-page/sections/projects';
 import { QuoteView } from 'features/landing-page/sections/quote';
+import { ServicesView } from 'features/landing-page/sections/services';
 import { TeamSectionView } from 'features/landing-page/sections/team';
 import { TopbarView } from 'features/landing-page/sections/topbar';
 import { WhatWeBelieveView } from 'features/landing-page/sections/what-we-believe';
@@ -18,6 +19,7 @@ export const LandingPageView = () => {
       <HeroView />
       <WhySectionView />
       <QuoteView />
+      <ServicesView />
       <TeamSectionView />
       <WhatWeBelieveView />
       <ProjectsView />

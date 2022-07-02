@@ -5,8 +5,7 @@ export const container: StylesProps = {
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
-  width: '100%',
-  bgcolor: 'background.default'
+  width: '100%'
 };
 
 export const content: StylesProps = {

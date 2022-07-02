@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material';
 import Glide from '@glidejs/glide';
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import Image from 'next/image';
 import * as styles from './styles';
 
@@ -16,6 +16,14 @@ export const HeroView = () => {
 
     glide.mount();
   }, []);
+
+  const stylesImg = useMemo(
+    () => ({
+      ...styles.img,
+      minHeight: { sm: 360, md: 480, lg: 560, xl: 600 }
+    }),
+    []
+  );
 
   return (
     <Box sx={styles.container}>
@@ -39,11 +47,7 @@ export const HeroView = () => {
               </Box>
             </Box>
             <Box component="li" className="glide__slide">
-              <Box
-                sx={Object.assign(styles.img, {
-                  minHeight: { sm: 360, md: 480, lg: 560, xl: 600 }
-                })}
-              >
+              <Box sx={stylesImg}>
                 <Typography variant="h1" sx={styles.title2}>
                   User research
                 </Typography>
