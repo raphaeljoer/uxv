@@ -30,3 +30,9 @@ export const social: StylesProps = {
   alignItems: 'center',
   gap: 1
 };
+
+export const icon: StylesProps = {
+  color: 'black',
+  border: '1px solid',
+  borderColor: 'grey.300'
+};

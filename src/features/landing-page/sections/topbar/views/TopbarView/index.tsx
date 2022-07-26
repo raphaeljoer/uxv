@@ -4,8 +4,14 @@ import Image from 'next/image';
 import { Container } from 'shared/components/Container';
 import { BsMedium } from 'react-icons/bs';
 import * as styles from './styles';
+import { SyntheticEvent, useCallback } from 'react';
 
 export const TopbarView = () => {
+  const handleClick = useCallback((e: SyntheticEvent) => {
+    const link = e.currentTarget.getAttribute('data-link') as string;
+    window.open(link, '_blank');
+  }, []);
+
   return (
     <Container sx={styles.superContainer} sxContent={styles.superContent}>
       <Box sx={styles.container}>
@@ -20,20 +26,16 @@ export const TopbarView = () => {
         </Box>
         <Box sx={styles.social}>
           <IconButton
-            sx={{
-              color: 'black',
-              border: '1px solid',
-              borderColor: 'grey.300'
-            }}
+            onClick={handleClick}
+            data-link="https://www.linkedin.com/company/uxvolution/"
+            sx={styles.icon}
           >
             <LinkedInIcon />
           </IconButton>
           <IconButton
-            sx={{
-              color: 'black',
-              border: '1px solid',
-              borderColor: 'grey.300'
-            }}
+            onClick={handleClick}
+            data-link="https://medium.com/uxvolution "
+            sx={styles.icon}
           >
             <BsMedium />
           </IconButton>
