@@ -28,8 +28,8 @@ export const quote: StylesProps = {
   pb: 8,
   borderRadius: 4,
   maxWidth: 590,
-  bgcolor: 'rgb(255, 255, 255, 0.6)',
-  backdropFilter: 'blur(10px)'
+  bgcolor: 'rgb(255, 255, 255, 0.2)',
+  backdropFilter: 'blur(8px)'
 };
 
 export const bg: StylesProps = {
