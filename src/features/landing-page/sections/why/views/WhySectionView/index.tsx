@@ -11,7 +11,9 @@ export const WhySectionView = () => {
       <Grid sx={styles.section}>
         <Box sx={styles.article}>
           <Typography variant="h2" sx={styles.why} maxWidth={288}>
-            {`Why do we focus on the health area?`}
+            {`Why do we focus on the`}
+            <span>health area</span>
+            {`?`}
           </Typography>
         </Box>
         <Box sx={styles.article}>

@@ -41,6 +41,9 @@ export const description: StylesProps = {
 
 export const icon: StylesProps = {
   fontSize: 56,
-  color: 'secondary.main',
+  color: 'white',
+  bgcolor: 'secondary.main',
+  p: 2,
+  borderRadius: 3,
   mb: 2
 };
