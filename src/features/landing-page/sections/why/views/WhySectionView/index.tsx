@@ -4,6 +4,7 @@ import ConnectWithoutContactOutlinedIcon from '@mui/icons-material/ConnectWithou
 import PersonSearchOutlinedIcon from '@mui/icons-material/PersonSearchOutlined';
 import * as styles from './styles';
 import { Container } from 'shared/components/Container';
+import { Underline } from 'shared/components/Underline';
 
 export const WhySectionView = () => {
   return (
@@ -11,8 +12,8 @@ export const WhySectionView = () => {
       <Grid sx={styles.section}>
         <Box sx={styles.article}>
           <Typography variant="h2" sx={styles.why} maxWidth={288}>
-            {`Why do we focus on the`}
-            <span>health area</span>
+            {`Why do we focus on the `}
+            <Underline>health area</Underline>
             {`?`}
           </Typography>
         </Box>

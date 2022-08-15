@@ -23,6 +23,12 @@ export const article: StylesProps = {
   alignItems: { xs: 'center', md: 'flex-start' },
   width: '100%'
 };
+
+export const highlight: StylesProps = {
+  textDecoration: 'underline',
+  textDecorationColor: (theme) => theme.palette.secondary.main
+};
+
 export const why: StylesProps = {
   fontSize: 40,
   fontWeight: 700,

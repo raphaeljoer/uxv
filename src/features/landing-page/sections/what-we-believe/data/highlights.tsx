@@ -1,40 +1,39 @@
-import MapsHomeWorkOutlinedIcon from '@mui/icons-material/MapsHomeWorkOutlined';
-import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
-import DoneAllOutlinedIcon from '@mui/icons-material/DoneAllOutlined';
-import GppGoodOutlinedIcon from '@mui/icons-material/GppGoodOutlined';
-import HealthAndSafetyOutlinedIcon from '@mui/icons-material/HealthAndSafetyOutlined';
+import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import FingerprintOutlinedIcon from '@mui/icons-material/FingerprintOutlined';
+import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
+import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
 
 import { IHighlight } from '../types/highlight';
 
 export const highlights: IHighlight[] = [
   {
-    icon: <DoneAllOutlinedIcon color="primary" />,
-    title: 'Prioritize efficiency',
+    icon: <AccessAlarmIcon color="primary" />,
+    title: 'Evolution',
     details:
-      'We prioritize efficiency and productivity, because we believe that there is always a better way to do the right thing and do the thing right.'
+      'We are always looking for continuous changes in our projects and ourselves to reach the best version.'
   },
   {
-    icon: <MapsHomeWorkOutlinedIcon color="primary" />,
-    title: 'Officeless',
+    icon: <WorkOutlineOutlinedIcon color="primary" />,
+    title: 'Commitment',
     details:
-      'We are officeless. Our remote process embraces all the great learning of big and small companies to ensure an amazing virtual environment for work and play as a team.'
+      'We guide all our actions with purpose and rigour to achieve excellent results.'
   },
   {
-    icon: <SchoolOutlinedIcon color="primary" />,
-    title: 'Lifelong learners',
+    icon: <GroupsOutlinedIcon color="primary" />,
+    title: 'Flexibility',
     details:
-      'We are lifelong learners. In order to adapt and grow as our surroundings change (and it is always changing), we are both students and teachers of each other.'
+      'We recognize that the world is constantly changing. As a result, our activities, plans and behaviors are adaptable to enable different possibilities.'
   },
   {
-    icon: <GppGoodOutlinedIcon color="primary" />,
+    icon: <FingerprintOutlinedIcon color="primary" />,
+    title: 'The whole is greater than the sum of the parts',
+    details: ' We are singular individuals, who are stronger together.'
+  },
+  {
+    icon: <FavoriteBorderOutlinedIcon color="primary" />,
     title: 'Transparency',
     details:
-      'We believe in transparency, empathetic communication, respect and free speech liberty.'
-  },
-  {
-    icon: <HealthAndSafetyOutlinedIcon color="primary" />,
-    title: 'Healtholics',
-    details:
-      'We are healtholics. We believe that work-life balance is not negotiable. Therefore, we are highly committed to embrace a process workflow that ensures doing more in less time. '
+      'We believe in direct communication, respect and freedom of speech.'
   }
 ];
