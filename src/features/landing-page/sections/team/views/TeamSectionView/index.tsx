@@ -11,12 +11,13 @@ export const TeamSectionView = () => {
       <Box sx={styles.section}>
         <Header />
         <Grid sx={styles.members}>
-          {members.map(({ name, position, image, socials }) => (
+          {members.map(({ name, position, image, imageOverlay, socials }) => (
             <Member
               key={name}
               name={name}
               position={position}
               image={image}
+              imageOverlay={imageOverlay}
               socials={socials}
             />
           ))}

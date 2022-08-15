@@ -8,5 +8,6 @@ export type Member = {
   name: string;
   position: string;
   image: string;
+  imageOverlay: string;
   socials: Social[];
 };
