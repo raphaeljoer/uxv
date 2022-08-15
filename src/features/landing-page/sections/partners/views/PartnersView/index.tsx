@@ -5,7 +5,13 @@ import * as styles from './styles';
 
 export const PartnersView = () => {
   return (
-    <Container sx={{ bgcolor: 'white' }}>
+    <Container sx={styles.container}>
+      <Box
+        component="img"
+        src="/features/landing-page/assets/partners/bg-partners.svg"
+        alt="Partners"
+        sx={styles.bg}
+      />
       <Grid sx={styles.grid}>
         <Box id="partner-header" sx={styles.header}>
           <Typography variant="h2" sx={styles.title}>

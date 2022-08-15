@@ -1,5 +1,16 @@
 import { StylesProps } from 'shared/types/styles-props';
 
+export const container: StylesProps = {
+  bgcolor: 'white',
+  position: 'relative',
+  pb: 20
+};
+
+export const bg: StylesProps = {
+  position: 'absolute',
+  bottom: 32
+};
+
 export const grid: StylesProps = {
   display: 'grid',
   gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' },
