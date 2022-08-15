@@ -13,10 +13,6 @@ export const partners: Partner[] = [
     name: ''
   },
   {
-    src: '/features/landing-page/assets/partners/beezstudio.png',
-    name: ''
-  },
-  {
     src: '/features/landing-page/assets/partners/fiocruz.png',
     name: ''
   },
@@ -25,19 +21,15 @@ export const partners: Partner[] = [
     name: ''
   },
   {
-    src: '/features/landing-page/assets/partners/madan.png',
-    name: ''
-  },
-  {
     src: '/features/landing-page/assets/partners/org-pan-americana-saude.png',
     name: ''
   },
   {
-    src: '/features/landing-page/assets/partners/gov-pernambuco.png',
+    src: '/features/landing-page/assets/partners/gov-pernambuco2.png',
     name: ''
   },
   {
-    src: '/features/landing-page/assets/partners/hgf.png',
+    src: '/features/landing-page/assets/partners/madan.png',
     name: ''
   }
 ];
