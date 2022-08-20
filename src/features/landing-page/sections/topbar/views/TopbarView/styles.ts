@@ -21,7 +21,7 @@ export const container: StylesProps = {
 export const logo: StylesProps = {
   position: 'relative',
   width: 239,
-  height: 40,
+  height: 42.3,
   overflow: 'hidden'
 };
 
