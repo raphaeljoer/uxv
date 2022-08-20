@@ -1,8 +1,9 @@
-import { Box, Typography } from '@mui/material';
+import { Box, IconButton, Typography } from '@mui/material';
 import Glide from '@glidejs/glide';
 import { useEffect, useMemo } from 'react';
 import Image from 'next/image';
 import * as styles from './styles';
+import CircleIcon from '@mui/icons-material/Circle';
 
 export const HeroView = () => {
   useEffect(() => {
@@ -66,6 +67,51 @@ export const HeroView = () => {
             </Box>
           </Box>
         </Box>
+        <Box data-glide-el="controls[nav]" sx={styles.controls}>
+          <IconButton
+            data-glide-dir="=0"
+            className="single-bullet"
+            size="small"
+            sx={{
+              width: 16,
+              height: 16
+            }}
+          >
+            <CircleIcon
+              sx={{
+                width: 12,
+                height: 12
+              }}
+            />
+          </IconButton>
+          <IconButton
+            data-glide-dir="=1"
+            className="single-bullet"
+            size="small"
+            sx={{
+              width: 16,
+              height: 16
+            }}
+          >
+            <CircleIcon
+              sx={{
+                width: 12,
+                height: 12
+              }}
+            />
+          </IconButton>
+        </Box>
+        {/* <div className="bottom_bullets" data-glide-el="controls[nav]">
+          {[0, 1].map((slide, index) => {
+            return (
+              <button
+                key={index}
+                className="single-bullet"
+                data-glide-dir={'=' + index}
+              />
+            );
+          })}
+        </div> */}
       </Box>
     </Box>
   );

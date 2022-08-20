@@ -1849,6 +1849,11 @@
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
+"@types/glidejs@^1.0.31":
+  version "1.0.31"
+  resolved "https://registry.yarnpkg.com/@types/glidejs/-/glidejs-1.0.31.tgz#6c1929a7bbd289a3b1f29737ec6247960663fb72"
+  integrity sha512-70C7VbwbbP2ORa0i0dA4dCCeOC7qR2VkCzCRkOf7jkgSP0/O37ME1Ar60R5bS1umppB+q4F/+xT1AtiPxv13SQ==
+
 "@types/glidejs__glide@^3.4.2":
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@types/glidejs__glide/-/glidejs__glide-3.4.2.tgz#fb486e376aab88788e09bbdeb81f89dcf363be1c"

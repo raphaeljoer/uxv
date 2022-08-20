@@ -1,6 +1,7 @@
 import { StylesProps } from 'shared/types/styles-props';
 
 export const container: StylesProps = {
+  position: 'relative',
   mt: 10,
   color: 'black'
 };
@@ -64,4 +65,20 @@ export const subTitle2: StylesProps = {
   maxWidth: 560,
   color: 'black',
   fontFamily: 'Cedarville Cursive'
+};
+
+export const controls: StylesProps = {
+  position: 'absolute',
+  right: 0,
+  top: '50%',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  p: 1,
+  gap: 0.5,
+  bgcolor: 'grey.200',
+  borderRadius: 2,
+  mr: 1,
+  transform: 'translate(0%, -100%)'
 };
