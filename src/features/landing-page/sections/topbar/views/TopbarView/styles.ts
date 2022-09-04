@@ -18,13 +18,6 @@ export const container: StylesProps = {
   width: '100%'
 };
 
-export const logo: StylesProps = {
-  position: 'relative',
-  width: 239,
-  height: 42.3,
-  overflow: 'hidden'
-};
-
 export const social: StylesProps = {
   display: 'flex',
   alignItems: 'center',

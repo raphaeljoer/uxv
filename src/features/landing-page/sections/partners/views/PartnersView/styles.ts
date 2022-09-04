@@ -8,7 +8,8 @@ export const container: StylesProps = {
 
 export const bg: StylesProps = {
   position: 'absolute',
-  bottom: 32
+  bottom: 32,
+  width: '100%'
 };
 
 export const grid: StylesProps = {

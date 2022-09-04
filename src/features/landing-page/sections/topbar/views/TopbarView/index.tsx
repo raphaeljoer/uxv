@@ -15,15 +15,14 @@ export const TopbarView = () => {
   return (
     <Container sx={styles.superContainer} sxContent={styles.superContent}>
       <Box sx={styles.container}>
-        <Box sx={styles.logo}>
-          <Image
-            src="/features/landing-page/assets/uxv-logo.svg"
-            alt="uxv logo"
-            objectFit="cover"
-            layout="fill"
-            priority
-          />
-        </Box>
+        <Image
+          src="/features/landing-page/assets/uxv-logo.svg"
+          alt="uxv logo"
+          layout="fixed"
+          width={239}
+          height={42}
+          priority
+        />
         <Box sx={styles.social}>
           <IconButton
             onClick={handleClick}

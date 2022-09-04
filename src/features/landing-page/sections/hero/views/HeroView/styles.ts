@@ -1,7 +1,16 @@
 import { StylesProps } from 'shared/types/styles-props';
 
 export const container: StylesProps = {
+  display: 'flex',
+  width: '100%',
+  alignItems: 'center',
+  justifyContent: 'center'
+};
+
+export const content: StylesProps = {
   position: 'relative',
+  maxWidth: 1440,
+  width: '100%',
   mt: 10,
   color: 'black'
 };
@@ -37,12 +46,12 @@ export const subTitle: StylesProps = {
 
 export const title2: StylesProps = {
   position: 'absolute',
-  top: 0,
+  bottom: 0,
   left: '50%',
   transform: {
-    sm: 'translate(-50%, 10%)',
-    md: 'translate(-50%, 25%)',
-    xl: 'translate(-50%, 25%)'
+    xs: 'translate(-50%, -120%)',
+    md: 'translate(-50%, -120%)',
+    xl: 'translate(-50%, -120%)'
   },
   textAlign: { sm: 'center', lg: 'left' },
   fontSize: { sm: 40, md: 64 },
@@ -53,12 +62,44 @@ export const title2: StylesProps = {
 
 export const subTitle2: StylesProps = {
   position: 'absolute',
-  top: 0,
+  bottom: 0,
   left: '50%',
   transform: {
-    sm: 'translate(-50%, 100%)',
-    md: 'translate(-50%, 120%)',
-    xl: 'translate(-50%, 120%)'
+    sm: 'translate(-50%, -10%)',
+    md: 'translate(-50%, -50%)',
+    xl: 'translate(-50%, -40%)'
+  },
+  textAlign: { sm: 'center', lg: 'left' },
+  fontSize: { sm: 32, md: 48 },
+  maxWidth: 560,
+  color: 'black',
+  fontFamily: 'Cedarville Cursive'
+};
+
+export const title3: StylesProps = {
+  position: 'absolute',
+  bottom: 0,
+  left: '50%',
+  transform: {
+    xs: 'translate(-50%, -100%)',
+    md: 'translate(-40%, -420%)',
+    xl: 'translate(-40%, -420%)'
+  },
+  textAlign: { sm: 'center', lg: 'left' },
+  fontSize: { sm: 40, md: 64 },
+  maxWidth: { sm: 320, md: 480 },
+  fontWeight: 700,
+  color: 'secondary.main'
+};
+
+export const subTitle3: StylesProps = {
+  position: 'absolute',
+  bottom: 0,
+  left: '50%',
+  transform: {
+    sm: 'translate(-50%, 0%)',
+    md: 'translate(-45%, -330%)',
+    xl: 'translate(-45%, -330%)'
   },
   textAlign: { sm: 'center', lg: 'left' },
   fontSize: { sm: 32, md: 48 },
@@ -73,6 +114,7 @@ export const controls: StylesProps = {
   top: '50%',
   display: 'flex',
   flexDirection: 'column',
+  height: 'fit-content',
   alignItems: 'center',
   justifyContent: 'center',
   p: 1,
