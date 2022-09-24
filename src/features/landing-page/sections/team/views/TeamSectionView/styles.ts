@@ -27,3 +27,27 @@ export const members: StylesProps = {
   justifyItems: 'center',
   gap: 2
 };
+
+export const advisoryBoard: StylesProps = {
+  display: 'flex',
+  flexDirection: 'column',
+  width: '100%'
+};
+
+export const advisoryBoardTitle: StylesProps = {
+  textAlign: 'center',
+  width: '100%',
+  mb: 8
+};
+
+export const advisoryBoardMembers: StylesProps = {
+  display: 'grid',
+  gridTemplateColumns: {
+    xs: '1fr',
+    md: '1fr 1fr'
+  },
+  gap: 2,
+  width: '100%',
+  maxWidth: 800,
+  mx: 'auto'
+};
