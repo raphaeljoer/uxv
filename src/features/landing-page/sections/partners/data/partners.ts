@@ -21,6 +21,10 @@ export const partners: Partner[] = [
     name: ''
   },
   {
+    src: '/features/landing-page/assets/partners/opas.png',
+    name: ''
+  },
+  {
     src: '/features/landing-page/assets/partners/madan.png',
     name: ''
   }
