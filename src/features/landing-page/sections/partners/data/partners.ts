@@ -21,14 +21,6 @@ export const partners: Partner[] = [
     name: ''
   },
   {
-    src: '/features/landing-page/assets/partners/org-pan-americana-saude.png',
-    name: ''
-  },
-  {
-    src: '/features/landing-page/assets/partners/gov-pernambuco2.png',
-    name: ''
-  },
-  {
     src: '/features/landing-page/assets/partners/madan.png',
     name: ''
   }
