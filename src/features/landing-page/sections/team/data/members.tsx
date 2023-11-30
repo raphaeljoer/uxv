@@ -23,7 +23,7 @@ export const members: Member[] = [
   },
   {
     name: 'Inga Saboia',
-    position: 'Co-Founder, UX/UI Consultant & Researcher',
+    position: 'Co-Founder',
     image: '/features/landing-page/team/inga.jpg',
     imageOverlay: '/features/landing-page/team/inga-overlay.svg',
     socials: [
