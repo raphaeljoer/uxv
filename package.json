@@ -66,5 +66,8 @@
     "lint-staged": "^11.2.3",
     "prettier": "^2.4.1",
     "typescript": "4.4.4"
+  },
+  "engines": {
+    "node": "^20.10.0"
   }
 }
