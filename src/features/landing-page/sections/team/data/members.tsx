@@ -5,7 +5,7 @@ import { Member } from '../types/member';
 export const members: Member[] = [
   {
     name: 'Claudia Pernencar',
-    position: 'Co-Founder, UX/UI Consultant & Researcher',
+    position: 'Co-Founder',
     image: '/features/landing-page/team/claudia.jpg',
     imageOverlay: '/features/landing-page/team/claudia-overlay.svg',
     socials: [
@@ -41,7 +41,7 @@ export const members: Member[] = [
   },
   {
     name: 'Deivith Oliveira',
-    position: 'Co-Founder & Digital Product Manager',
+    position: 'Co-Founder',
     image: '/features/landing-page/team/deivith.jpg',
     imageOverlay: '/features/landing-page/team/deivith-overlay.svg',
     socials: [
